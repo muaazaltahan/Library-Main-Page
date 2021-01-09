@@ -1,0 +1,173 @@
+@font-face{
+	font-family:cocon;
+	src:url('cocon.otf');
+}
+body{
+	margin:0;
+	background:#742;
+	color:#fff;
+	font-family:cocon;
+}
+li{list-style-type:none;}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* navbar and its contents */
+nav{
+	width:100%;
+	height:30px;
+	position:fixed;
+	top:0;
+	z-index:9;
+	color:#fff;
+	background:#421;
+	font-size:15px;
+}
+ul{
+	padding:0;
+	margin:0;
+} 
+.nav-btn{
+	width:30%;
+	float:left;
+	padding:5px 0;
+	text-align:center;
+	cursor:pointer;
+}
+.flags{
+	position:absolute;
+	left:60%;
+	top:30px;
+	width:29%;
+	background:#642;
+	padding:5px;
+	font-size:14px;
+	display:none;
+}
+.flag{
+	border-bottom:1px solid #fff;
+	text-align:center;
+}
+.addb{left:30%;}
+.bkin{
+	width:95%;
+	border-radius:10px;
+	margin-top:5px;
+	font-size:10px;
+}
+
+/* header and its contents */
+header{
+	margin:30px 0;
+	height:180px;
+	overflow:hidden;
+	position:relative;
+	background-image:url('library.jpg');
+	background-size:100% auto;
+}
+.htxt{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	z-index:2;
+	background:#421;
+	opacity:0.8;
+}
+
+/* page contents */
+.book{
+	text-align:center;
+	border:2px solid #321;
+	width:80%;
+	margin:15px 10%;
+	padding:5px;
+	border-radius:10px;
+}
+.bookimg{
+	width:100%;
+	max-height:350px;
+}
+.dbtn{
+	width:100%;
+	background:#3a3;
+	border-radius:16px;
+	color:#fff;
+	font-family:inherit;
+	cursor:pointer;
+}
+.dbtn:active{
+	border:2px inset #fff;
+}
+
+/* footer and its contents */
+footer{
+	background:#321;
+	text-align:center;
+}
+@media screen and (min-width: 500px) {
+	/* nav */
+	nav{
+		font-size:22px;
+		height:40px;
+	}
+	.flags{top:40px;}
+	
+	/* header */
+	.htxt{font-size:20px;}
+	
+	/* page contents */
+	.book{font-size:20px;}
+	.dbtn{font-size:18px;}
+}
+@media screen and (min-width: 800px) {
+	/* nav */
+	nav{
+		font-size:25px;
+		height:45px;
+	}
+	.nav-btn:hover{background:#321;}
+	.flags{top:45px;}
+	
+	/* header */
+	header{height:250px;}
+	.htxt{font-size:23px;}
+	
+	/* page contents */
+	.book{
+		font-size:23px;
+		width:40%;
+		margin:20px 4%; 
+		float:left;
+	}
+	.dbtn{font-size:22px;}
+	
+	/* footer */
+	footer{
+		width:100%;
+		height:70px;
+		display:block;
+		overflow:hidden;
+	}
+}
+@media screen and (min-width: 1200px) {
+	/* header */
+	header{height:400px;}
+	
+	/* page contents */
+	.book{
+		width:25%;
+		margin:25px 2%; 
+	}	
+}
+@media screen and (min-width: 2000px) {
+	/* header */
+	header{height:600px;}
+	
+	/* page contents */
+	.book{
+		width:20%;
+		margin:20px 1%; 
+	}
+}

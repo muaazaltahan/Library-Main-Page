@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Library Main Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="nav-btn">
+					<img src="logo" class="logo" alt="LOGO" />
+				</li>
+				<li class="nav-btn" onclick="toggle('addb')">Add Book<li>
+				<form class="flags addb" id="addb">
+					<input type="text" class="bkin" placeholder="Title" />
+					<input type="text" class="bkin" placeholder="Short Description" />
+					<input type="submit" class="bkin" value="Send" />
+				</form>
+				<li class="nav-btn" onclick="toggle('flags')">Flags<li>
+				<ul class="flags" id="flags">
+					<li class="flag"><a href="#desktop">Desktop Apps</a></li>
+					<li class="flag"><a href="#mobile">Mobile Apps</a></li>
+					<li class="flag"><a href="#machine">Machine Learning</a></li>
+					<li class="flag"><a href="#web">Web Development</a></li>
+				</ul>
+			</ul>
+		</nav>
+		<header>
+			<div class="htxt">
+				Welcome To Our Website.<br />
+				Buttons Won't Work. It's Just Front-End.
+			</div>
+		</header>
+		<div class="container">
+			<div class="book">
+				<img src="book.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+			<div class="book">
+				<img src="book2.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+			<div class="book">
+				<img src="book3.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+			<div class="book">
+				<img src="book4.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+			<div class="book">
+				<img src="book5.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+			<div class="book">
+				<img src="book6.png" class="bookimg" alt="book image" />
+				Description Of The Book<br />
+				Here Some Text...
+				<button class="dbtn">Download</button>
+			</div>
+		</div>
+		<footer>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+				<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+			</a>
+			<br />
+			This work is licensed under a 
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+				Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+			</a>.
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
