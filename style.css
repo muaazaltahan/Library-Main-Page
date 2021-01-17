@@ -36,6 +36,7 @@ ul{
 	text-align:center;
 	cursor:pointer;
 }
+.logo{width:35px;}
 .flags{
 	position:absolute;
 	left:60%;
@@ -112,6 +113,7 @@ footer{
 		font-size:22px;
 		height:40px;
 	}
+	.logo{width:50px;}
 	.flags{top:40px;}
 	
 	/* header */
@@ -127,6 +129,7 @@ footer{
 		font-size:25px;
 		height:45px;
 	}
+	.logo{width:57px;}
 	.nav-btn:hover{background:#321;}
 	.flags{top:45px;}
 	
