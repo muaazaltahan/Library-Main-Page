@@ -36,7 +36,7 @@ ul{
 	text-align:center;
 	cursor:pointer;
 }
-.logo{width:35px;}
+.logo{width:40px;}
 .flags{
 	position:absolute;
 	left:60%;
@@ -113,7 +113,7 @@ footer{
 		font-size:22px;
 		height:40px;
 	}
-	.logo{width:50px;}
+	.logo{width:55px;}
 	.flags{top:40px;}
 	
 	/* header */
@@ -129,7 +129,7 @@ footer{
 		font-size:25px;
 		height:45px;
 	}
-	.logo{width:57px;}
+	.logo{width:62px;}
 	.flags{top:45px;}
 	
 	/* header */
